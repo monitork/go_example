@@ -1,12 +1,10 @@
-package variable_exam
+package variableexam
 
 import (
 	"fmt"
 	"reflect"
 	"strconv"
 )
-
-type Record struct{}
 
 func incressCounter() int {
 	counter := 1
@@ -26,6 +24,8 @@ func slidesTest() []int {
 	numbers[0] = 4
 	return numbers
 }
+
+// MainVariableExam excute print variable lession
 func MainVariableExam() {
 	var hello string = "Xin chào hihi...! "
 	counter := 1

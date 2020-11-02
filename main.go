@@ -1,11 +1,11 @@
 package main
 
 import (
-	"hello/src/object_exam"
-	"hello/src/variable_exam"
+	objectExam "hello/src/object_exam"
+	variableExam "hello/src/variable_exam"
 )
 
 func main() {
-	variable_exam.MainVariableExam()
-	object_exam.MainObjectExam()
+	variableExam.MainVariableExam()
+	objectExam.MainObjectExam()
 }
